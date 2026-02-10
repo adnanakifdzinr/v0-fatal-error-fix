@@ -1,5 +1,5 @@
 [build]
-  command = "npm run build"
+  command = "rm -rf node_modules && npm run build"
   functions = "functions"
   publish = ".next"
 
@@ -51,13 +51,13 @@
   package = "@netlify/plugin-nextjs"
 
 [context.production]
-  command = "npm run build"
+  command = "rm -rf node_modules && npm run build"
   publish = ".next/standalone"
 
 [context.preview]
-  command = "npm run build"
+  command = "rm -rf node_modules && npm run build"
   publish = ".next/standalone"
 
 [context.deploy-preview]
-  command = "npm run build"
+  command = "rm -rf node_modules && npm run build"
   publish = ".next/standalone"

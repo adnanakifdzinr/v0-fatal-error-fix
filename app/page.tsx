@@ -92,13 +92,13 @@ export default function Home() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
       <main className="relative bg-background transition-colors duration-300">
-      {/* Hero SVG Section */}
-      <section id="home" className="w-full lg:py-60 lg:px-8 py-30 px-3">
-        <svg
-          viewBox="0 0 1920 393.95"
-          className="w-full h-auto"
-          xmlns="http://www.w3.org/2000/svg"
-        >
+        {/* Hero SVG Section */}
+        <section id="home" className="w-full lg:py-60 lg:px-8 py-30 px-3">
+          <svg
+            viewBox="0 0 1920 393.95"
+            className="w-full h-auto"
+            xmlns="http://www.w3.org/2000/svg"
+          >
           <g id="Layer_1" data-name="Layer 1">
             <path d="M1896.81,76.9h-.08c.03-.91.05-1.81.06-2.72.01.91.02,1.81.02,2.72Z" fill="currentColor" />
             <path d="M1896.81,71.46c0,.91-.01,1.81-.02,2.72-.01-.91-.03-1.81-.06-2.72h.08Z" fill="currentColor" />
@@ -113,19 +113,19 @@ export default function Home() {
               <path d="M1591.33,9.97h175.57c45.01,0,78.78,10.22,101.29,30.65,22.51,20.44,33.76,47.62,33.76,81.55,0,19.05-5.02,36.28-15.06,51.69-10.05,15.41-53.78,37.62-81.72,32.44,15.58,7.62,47.78,5.83,74.71,36.91,9.44,10.9,12.9,26.67,15.32,43.63l14.54,97.14h-89.86l-12.47-84.15c-2.78-18.7-8.66-32.47-17.66-41.3-9.01-8.83-22.17-13.25-39.48-13.25h-71.16v138.69h-87.79V9.97ZM1751.32,178.27c20.08,0,35.14-3.98,45.19-11.95,10.04-7.96,15.06-20.26,15.06-36.88s-5.02-28.91-15.06-36.88c-10.05-7.96-25.11-11.95-45.19-11.95h-72.2v97.66h72.2Z" />
             </g>
           </g>
-        </svg>
-        {/* Hero Text Section */}
-        <div className="grid grid-cols-2 gap-0 mt-4 md:mt-5">
-          {/* Left - Empty */}
-          <div></div>
-          {/* Right - Text */}
-          <div className="flex items-center">
-            <h1 className="text-[20px] md:text-5xl lg:text-[35px] font-regular text-foreground leading-none tracking-tighter">
-              We create premium brands that command attention.
-            </h1>
+          </svg>
+          {/* Hero Text Section */}
+          <div className="grid grid-cols-2 gap-0 mt-4 md:mt-5">
+            {/* Left - Empty */}
+            <div></div>
+            {/* Right - Text */}
+            <div className="flex items-center">
+              <h1 className="text-[20px] md:text-5xl lg:text-[35px] font-regular text-foreground leading-none tracking-tighter">
+                We create premium brands that command attention.
+              </h1>
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
       <BrandStrategySection />
       <BrandClaritySection />
       <div className="relative bg-background">
